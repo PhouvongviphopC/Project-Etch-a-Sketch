@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 512px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.smallDiv{
+    width: 32px;
+    height: 32px;
+    background-color: lightblue;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.button {
+    display: flex;
+    width: 512px;
+    justify-items: center;
+    align-items: center;
+}
+/* Center the button group */
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Optional: adds space above the buttons */
+}
+/* Optional: add spacing between buttons */
+.button button {
+    margin: 0 5px;
+}
